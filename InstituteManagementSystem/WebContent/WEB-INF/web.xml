@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  
+  <servlet>
+  <servlet-name>SeheduleAddServlet</servlet-name>
+  <servlet-class>SeheduleAddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>SeheduleAddServlet</servlet-name>
+  <url-pattern>/schedule_added</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>StudentLoginServlet</servlet-name>
+  <servlet-class>StudentLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>StudentLoginServlet</servlet-name>
+  <url-pattern>/student_login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>TeacherLoginServlet</servlet-name>
+  <servlet-class>TeacherLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>TeacherLoginServlet</servlet-name>
+  <url-pattern>/teacher_login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>StudentRegisterServlet</servlet-name>
+  <servlet-class>StudentRegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>StudentRegisterServlet</servlet-name>
+  <url-pattern>/student_register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>TeacherRegistrationServlet</servlet-name>
+  <servlet-class>TeacherRegistrationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>TeacherRegistrationServlet</servlet-name>
+  <url-pattern>/teacher_register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ChooseServlet</servlet-name>
+  <servlet-class>ChooseServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ChooseServlet</servlet-name>
+  <url-pattern>/choose_course</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ScheduleViewFormServlet</servlet-name>
+  <servlet-class>ScheduleViewFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>ScheduleViewFormServlet</servlet-name>
+  <url-pattern>/course_formal</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>SchedulesViewFormServlet</servlet-name>
+  <servlet-class>SchedulesViewFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>SchedulesViewFormServlet</servlet-name>
+  <url-pattern>/view_schedule</url-pattern>
+  </servlet-mapping>
+  
+  <display-name>InstituteManagementSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
